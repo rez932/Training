@@ -118,55 +118,6 @@ lrwxrwxrwx  1 root root        29 Oct  5 12:39 vmlinuz -> vmlinuz-6.13.2-061302-
 lrwxrwxrwx  1 root root        26 Oct  5 09:21 vmlinuz.old -> vmlinuz-5.15.0-198-generic
 ash@ubuntu1:~/kernel$ sudo reboot
 
-Remote side unexpectedly closed network connection
-
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-Session stopped
-    - Press <Return> to exit tab
-    - Press R to restart session
-    - Press S to save terminal output to file
-    ┌──────────────────────────────────────────────────────────────────────┐
-    │               • MobaXterm Professional Edition v26.4 •               │
-    │               (SSH client, X server and network tools)               │
-    │                                                                      │
-    │ ⮞ SSH session to ash@10.10.197.60                                    │
-    │   • Direct SSH      :  ✓                                             │
-    │   • SSH compression :  ✗                                             │
-    │   • SSH-browser     :  ✓                                             │
-    │   • X11-forwarding  :  ✓  (remote display is forwarded through SSH)  │
-    │                                                                      │
-    │ ⮞ For more info, ctrl+click on help or visit our website.            │
-    └──────────────────────────────────────────────────────────────────────┘
-
-Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.13.2-061302-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
-
- System information as of Mon Oct  5 12:41:12 PM UTC 2026
-
-  System load:  0.23              Processes:               247
-  Usage of /:   45.3% of 9.75GB   Users logged in:         0
-  Memory usage: 7%                IPv4 address for ens192: 10.10.197.60
-  Swap usage:   0%
-
-
-Expanded Security Maintenance for Applications is not enabled.
-
-72 updates can be applied immediately.
-3 of these updates are standard security updates.
-To see these additional updates run: apt list --upgradable
-
-Enable ESM Apps to receive additional future security updates.
-See https://ubuntu.com/esm or run: sudo pro status
-
-New release '24.04.5 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-
-Last login: Mon Oct  5 12:41:13 2026
 ash@ubuntu1:~$ uname -r
 6.13.2-061302-generic
 ash@ubuntu1:~$ sudo update-grub
@@ -185,56 +136,5 @@ done
 ash@ubuntu1:~$ sudo grub-set-default 0
 ash@ubuntu1:~$ sudo reboot
 
-Remote side unexpectedly closed network connection
-
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-Session stopped
-    - Press <Return> to exit tab
-    - Press R to restart session
-    - Press S to save terminal output to file
-    ┌──────────────────────────────────────────────────────────────────────┐
-    │               • MobaXterm Professional Edition v26.4 •               │
-    │               (SSH client, X server and network tools)               │
-    │                                                                      │
-    │ ⮞ SSH session to ash@10.10.197.60                                    │
-    │   • Direct SSH      :  ✓                                             │
-    │   • SSH compression :  ✗                                             │
-    │   • SSH-browser     :  ✓                                             │
-    │   • X11-forwarding  :  ✓  (remote display is forwarded through SSH)  │
-    │                                                                      │
-    │ ⮞ For more info, ctrl+click on help or visit our website.            │
-    └──────────────────────────────────────────────────────────────────────┘
-
-Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.13.2-061302-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/pro
-
- System information as of Mon Oct  5 12:43:38 PM UTC 2026
-
-  System load:  0.0               Processes:               255
-  Usage of /:   45.3% of 9.75GB   Users logged in:         0
-  Memory usage: 8%                IPv4 address for ens192: 10.10.197.60
-  Swap usage:   0%
-
-
-Expanded Security Maintenance for Applications is not enabled.
-
-72 updates can be applied immediately.
-3 of these updates are standard security updates.
-To see these additional updates run: apt list --upgradable
-
-Enable ESM Apps to receive additional future security updates.
-See https://ubuntu.com/esm or run: sudo pro status
-
-New release '24.04.5 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-
-Last login: Mon Oct  5 12:41:29 2026 from 10.4.197.167
 ash@ubuntu1:~$ uname -r
 6.13.2-061302-generic
-ash@ubuntu1:~$
-
